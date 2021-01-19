@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome Rajendra,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
@@ -43,3 +43,61 @@ We continually tweak and adjust this template to help give you the best experien
 --------
 
 Happy coding!
+
+# SPICY DHABA
+
+This website is created as a first milestone project using HTML and CSS. 
+Website target Indian reasturant with some special dishes. In this reasturant it is possible to book a table online before visiting so that people don't need to wait or it is possible to order take away. 
+Menu is available for view. Chef has some special menu items. 
+
+reasturant is also offering catering services to parties. To start discussion it is required to contact reasturant directly or send the form. 
+
+--------
+
+## UX
+
+
+--------
+## Features
+
+--------
+### Existing Features
+
+**Jan 21**
+
+
+### Features for next updated
+--------
+## Technologoies used
+ Website mainly developed using HTML and CSS. 
+ For responsive design well known [Bootstrap library](https://getbootstrap.com/)  is used.
+
+--------
+## Testing
+
+
+
+
+
+--------
+## Deployment
+
+
+
+
+--------
+## Credits
+
+1. Images - Images are downloaded from [pexels](pexels.com), [unsplash](unsplash.com), [pixabay](pixabay.com)
+2. Logo - Created using [freelogodesign](freelogodesign.org)
+3. Fonts- Google fonts - Roboto
+4. Icons - Font Awsoms
+
+
+
+### Content
+
+
+### Media
+
+### Acknowledgements
