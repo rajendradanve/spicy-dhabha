@@ -73,6 +73,11 @@ reasturant is also offering catering services to parties. To start discussion it
  For responsive design well known [Bootstrap library](https://getbootstrap.com/)  is used.
 
 --------
+## Bugs
+
+1. 20.01.21 - Hamburger button doesn't collapse back nav menu items.
+
+--------
 ## Testing
 
 
