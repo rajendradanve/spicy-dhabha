@@ -6,8 +6,9 @@ body{
 }
 
 /* ------- Setup full size hero image ------ */
+
 .top-container{
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     background: url("../images/main-image.jpg") no-repeat fixed;
     
@@ -22,6 +23,7 @@ body{
 }
 
 /* ------ Navbar ------- */
+
 #logo{
     font-family: 'Fredericka the Great', cursive;
     color: rgb(207, 23, 23);
@@ -34,38 +36,37 @@ body{
 }
 
 .social-icon{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
     display: inline;
-    background-color: black;
+    
+    border-radius: 50%;
 }
 
 .navbar-toggler-border{
-    border-radius: 3px;
-    padding: 5px;
+    border-radius: 2px;
+    
 }
 /* ---Main Header */
 
 .background-header{
     background-color: rgb(72,65,65, 0.5) ;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .main-header {
     color: #fff;
 }
 
+.sub-header{
+    color: #fff
+}
+
 /* ------ Special Dishes ------- */
 
 .speical-dishes-image{
     height: 200px;
+    width: auto;
 }
 
-.card-sepcial-dish{
-    width: 100%; 
-    min-height: 330px;
-}
 
 .heading{
     color:  rgb(207, 23, 23);
@@ -77,6 +78,7 @@ body{
 }
 
 /* ------ Reviews ------- */
+
 .review-image{
     width: 100px;
     height: 100px;
@@ -138,6 +140,7 @@ body{
 }
 
 /*--Catering--*/
+
 .top-container-catering{
     height: 50vh;
     width: 100%;
@@ -152,4 +155,68 @@ body{
   align-items: center;
   justify-content: center; 
 
+}
+
+/*--Menu--*/
+
+.top-container-menu{
+height: 70vh;
+    width: 100%;
+    background: url("../images/menu.jpg") no-repeat fixed;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.menu-sub-heading{
+    font-family: 'Rancho', cursive;
+    color:  rgb(207, 23, 23);
+    display: inline;
+}
+
+.menu-price{
+    font-family: 'Rancho', cursive;
+    color:  rgb(207, 23, 23);
+    float: right;
+    
+}
+
+.hori-line-style{
+border-top: 3px double #8c8b8b;
+}
+/*--About Us--*/
+.top-container-about-us{
+height: 70vh;
+    width: 100%;
+    background: url("../images/about-us.jpg") no-repeat fixed;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.top-container-thankyou{
+    height: 70vh;
+    width: 100%;
+    background: url("../images/thankyou.jpg") no-repeat fixed;
+    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }

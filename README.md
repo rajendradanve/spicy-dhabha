@@ -19,10 +19,13 @@ reasturant is also offering catering services to parties. To start discussion it
 --------
 ### Existing Features
 
-**Jan 21**
+Book Table online. Provide menu item details
 
 
 ### Features for next updated
+
+Take Away Menu Selection and possibility to order through form. 
+Online Payment
 --------
 ## Technologoies used
  Website mainly developed using HTML and CSS. 
@@ -32,6 +35,11 @@ reasturant is also offering catering services to parties. To start discussion it
 ## Bugs
 
 1. 20.01.21 - Hamburger button doesn't collapse back nav menu items.
+ Solution- Solved by using correct example from bootstrap documentation.
+
+ 2. Modal Design coming up before book table form validation. 
+  Solution-  Due to limited use of HTML and CSS it is not possible to introduced this at current level of knowlede.
+  So Modal code is removed from the book-table.html. Instead it is redirected to thank-you.html page
 
 --------
 ## Testing
