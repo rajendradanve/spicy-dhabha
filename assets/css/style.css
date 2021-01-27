@@ -27,7 +27,7 @@ body{
 #logo{
     font-family: 'Fredericka the Great', cursive;
     color: rgb(207, 23, 23);
-    font-weight: 700;
+    
 }
 
 #logo-img{
@@ -37,14 +37,17 @@ body{
 
 .social-icon{
     display: inline;
-    
-    border-radius: 50%;
 }
 
 .navbar-toggler-border{
     border-radius: 2px;
     
 }
+
+.active{
+    background: rgba(102, 102, 102, 0.5)
+}
+
 /* ---Main Header */
 
 .background-header{
@@ -219,4 +222,46 @@ height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center; 
+}
+/*--Custom media queries--*/
+@media screen and (max-width: 990px){
+
+    .card-sm-margin{
+        margin-top: 20px
+}
+}
+
+@media screen and (max-width: 570px){
+
+    .card-xs-margin{
+
+        margin-top: 20px;
+
+}
+}
+
+@media screen and (min-width: 1050px){
+    .display-more{
+        display:none
+    }
+}
+
+@media screen and (max-width:1050px) and (min-width:990px){
+    .display-more{
+        display: inline-block;
+    }
+
+    .display-nav-sm{
+        display: none;
+    }
+}
+
+@media screen and (max-width:990px){
+    .display-more{
+        display: none
+    }
+
+    .display-nav-sm{
+        display: inline-block;
+    }
 }
