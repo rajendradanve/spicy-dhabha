@@ -29,7 +29,7 @@ body {
 }
 
 #logo-img {
-    width: 50px;
+    width: 30px;
     height: auto;
 }
 
@@ -42,6 +42,10 @@ body {
     background-color: rgba(102, 102, 102, 0.5);
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(207 23 22);
+}
+
 /* ---Main Header */
 
 .background-header {
@@ -51,10 +55,17 @@ body {
 
 .main-header {
     color: #fff;
+    font-family: "Fredericka the Great", cursive;
 }
 
 .sub-header {
     color: #fff;
+    font-family: "Fredericka the Great", cursive;
+}
+
+#logo-img-header {
+    width: 30px;
+    height: auto;
 }
 
 /* ------ Special Dishes ------- */
@@ -62,6 +73,7 @@ body {
 .speical-dishes-image {
     height: 200px;
     width: auto;
+    object-fit: cover;
 }
 
 .heading {
@@ -229,14 +241,20 @@ body {
     justify-content: center;
 }
 /*--Custom media queries--*/
+
 @media screen and (max-width: 990px) {
     .card-sm-margin {
         margin-top: 20px;
     }
 }
 
-@media screen and (max-width: 570px) {
+
+@media screen and (max-width: 576px) {
     .card-xs-margin {
         margin-top: 20px;
+    }
+
+    .d-flex{
+        display: block
     }
 }
