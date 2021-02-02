@@ -1,267 +1,242 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rancho&family=Roboto:ital,wght@0,400;1,300;1,400;1,700&family=Sail&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rancho&family=Roboto:ital,wght@0,400;1,300;1,400;1,700&family=Sail&display=swap");
 
-
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: "Roboto", sans-serif;
 }
 
-/* ------- Setup full size hero image ------ */
+/* ------- Index page hero image ------ */
 
-.top-container{
+.top-container {
     height: 80vh;
     width: 100%;
     background: url("../images/main-image.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* ------ Navbar ------- */
 
-#logo{
-    font-family: 'Fredericka the Great', cursive;
+#logo {
+    font-family: "Fredericka the Great", cursive;
     color: rgb(207, 23, 23);
-    
 }
 
-#logo-img{
+#logo-img {
     width: 50px;
     height: auto;
 }
 
-.social-icon{
-    display: inline;
-}
 
-.navbar-toggler-border{
+.navbar-toggler-border {
     border-radius: 2px;
-    
 }
 
-.active{
-    background: rgba(102, 102, 102, 0.5)
+.active {
+    background-color: rgba(102, 102, 102, 0.5);
 }
 
 /* ---Main Header */
 
-.background-header{
-    background-color: rgb(72,65,65, 0.5) ;
-    border-radius: 20px;
+.background-header {
+    background-color: rgba(72, 65, 65, 0.9);
+    border-radius: 10px;
 }
 
 .main-header {
     color: #fff;
 }
 
-.sub-header{
-    color: #fff
+.sub-header {
+    color: #fff;
 }
 
 /* ------ Special Dishes ------- */
 
-.speical-dishes-image{
+.speical-dishes-image {
     height: 200px;
     width: auto;
 }
 
-
-.heading{
-    color:  rgb(207, 23, 23);
-    font-family: 'Fredericka the Great', cursive;
+.heading {
+    color: rgb(207, 23, 23);
+    font-family: "Fredericka the Great", cursive;
 }
 
-.card-title{
-    font-family: 'Rancho', cursive;
+.card-title {
+    font-family: "Rancho", cursive;
 }
 
 /* ------ Reviews ------- */
 
-.review-image{
-    width: 100px;
-    height: 100px;
+.review-image {
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
 }
 
-.review-image-heading{
+.review-image-heading {
     display: inline;
-    font-family: 'Rancho', cursive;
+    font-family: "Rancho", cursive;
 }
 
 /* ------ footer ------- */
-.footer-bg{
-    background-color:rgba(31, 25, 25, 0.8);
+.footer-bg {
+    background-color: rgba(31, 25, 25, 0.8);
 }
 
 /*--Book Table--*/
 
-.top-container-book-table{
-   height: 50vh;
+.top-container-book-table {
+    height: 80vh;
     width: 100%;
     background: url("../images/book-table-image.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #inputMobile::-webkit-outer-spin-button,
 #inputMobile::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
-#reserve-table-text{
+#reserve-table-text {
     min-width: 100%;
 }
 
 /*--Contact Us--*/
 
-.top-container-contact-us{
-   height: 50vh;
+.top-container-contact-us {
+    height: 80vh;
     width: 100%;
     background: url("../images/book-table-image.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*--Catering--*/
 
-.top-container-catering{
-    height: 50vh;
+.top-container-catering {
+    height: 80vh;
     width: 100%;
     background: url("../images/buffet.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*--Menu--*/
 
-.top-container-menu{
-height: 70vh;
+.top-container-menu {
+    height: 80vh;
     width: 100%;
     background: url("../images/menu.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.menu-sub-heading{
-    font-family: 'Rancho', cursive;
-    color:  rgb(207, 23, 23);
+.menu-background{
+    background-image: url("../images/background-menu.jpg");
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size: cover;
+
+}
+
+.menu-list-background{
+    background-color: #eeeeee
+}
+
+
+.menu-sub-heading {
+    font-family: "Rancho", cursive;
+    color: rgb(207, 23, 23);
     display: inline;
 }
 
-.menu-price{
-    font-family: 'Rancho', cursive;
-    color:  rgb(207, 23, 23);
+.menu-price {
+    font-family: "Rancho", cursive;
+    color: rgb(207, 23, 23);
     float: right;
-    
 }
 
-.hori-line-style{
-border-top: 3px double #8c8b8b;
+.hori-line-style {
+    border-top: 3px double #BF0000;
+    
 }
 /*--About Us--*/
-.top-container-about-us{
-height: 70vh;
+.top-container-about-us {
+    height: 80vh;
     width: 100%;
     background: url("../images/about-us.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.top-container-thankyou{
-    height: 70vh;
+.top-container-thankyou {
+    height: 80vh;
     width: 100%;
     background: url("../images/thankyou.jpg") no-repeat fixed;
-    
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 
-  display: flex;
-  align-items: center;
-  justify-content: center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*--Custom media queries--*/
-@media screen and (max-width: 990px){
-
-    .card-sm-margin{
-        margin-top: 20px
-}
-}
-
-@media screen and (max-width: 570px){
-
-    .card-xs-margin{
-
+@media screen and (max-width: 990px) {
+    .card-sm-margin {
         margin-top: 20px;
-
-}
-}
-
-@media screen and (min-width: 1050px){
-    .display-more{
-        display:none
     }
 }
 
-@media screen and (max-width:1050px) and (min-width:990px){
-    .display-more{
-        display: inline-block;
-    }
-
-    .display-nav-sm{
-        display: none;
-    }
-}
-
-@media screen and (max-width:990px){
-    .display-more{
-        display: none
-    }
-
-    .display-nav-sm{
-        display: inline-block;
+@media screen and (max-width: 570px) {
+    .card-xs-margin {
+        margin-top: 20px;
     }
 }
