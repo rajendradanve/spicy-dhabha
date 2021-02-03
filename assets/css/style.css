@@ -33,7 +33,6 @@ body {
     height: auto;
 }
 
-
 .navbar-toggler-border {
     border-radius: 2px;
 }
@@ -76,7 +75,7 @@ body {
     object-fit: cover;
 }
 
-.home-sub-heading {
+.sub-heading {
     color: rgb(207, 23, 23);
     font-family: "Fredericka the Great", cursive;
 }
@@ -233,7 +232,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
+#logo-img-about-us{
+     width: 30px;
+    height: auto;
+
+}
+/*--Thank you--*/
 
 .top-container-thankyou {
     height: 80vh;
@@ -257,6 +264,14 @@ body {
     .card-sm-margin {
         margin-top: 1.25rem;
     }
+}
+
+@media screen and (max-width: 900px) {
+.top-container-about-us {
+
+    background-position-x: 50%;
+}
+
 }
 
 
