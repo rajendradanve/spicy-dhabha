@@ -76,7 +76,7 @@ body {
     object-fit: cover;
 }
 
-.heading {
+.home-sub-heading {
     color: rgb(207, 23, 23);
     font-family: "Fredericka the Great", cursive;
 }
@@ -84,6 +84,7 @@ body {
 .card-title {
     font-family: "Rancho", cursive;
 }
+
 
 /* ------ Reviews ------- */
 
@@ -96,6 +97,7 @@ body {
 .review-image-heading {
     display: inline;
     font-family: "Rancho", cursive;
+   
 }
 
 /* ------ footer ------- */
@@ -184,7 +186,7 @@ body {
 .menu-background{
     background-image: url("../images/background-menu.jpg");
     background-repeat: no-repeat;
-    background-position: ;
+    background-position: center center;
     background-size: cover;
 
 }
@@ -193,6 +195,13 @@ body {
     background-color: #eeeeee
 }
 
+.menu-heading {
+    font-family: "Rancho", cursive;
+    color:#fff;
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .menu-sub-heading {
     font-family: "Rancho", cursive;
@@ -240,11 +249,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
 /*--Custom media queries--*/
 
 @media screen and (max-width: 990px) {
     .card-sm-margin {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 }
 
