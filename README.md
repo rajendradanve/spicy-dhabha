@@ -6,7 +6,7 @@ Website target Indian reasturant with some special dishes. In this reasturant it
 Menu is available for view. Chef has some special menu items. 
 
 reasturant is also offering catering services to parties. To start discussion it is required to contact reasturant directly or send the form. 
-<h2><img src="./assets/docs/wireframe/multiscreen-spicy-dhaba.jpg"></h2>
+<h2><img src="./assets/docs/wireframe/multiscreen-spicy-dhaba.png"></h2>
 
 --------
 
@@ -14,9 +14,9 @@ reasturant is also offering catering services to parties. To start discussion it
 
 -   ### User stories
         
-        1. User shall able to get quick information about the reasturant.
-        2. User shall able to navigate throughout the site easily and find the information based on navigation items.
-        3. User shall able contact reasturant easily.
+    - User shall able to get quick information about the reasturant.
+    - User shall able to navigate throughout the site easily and find the information based on navigation items.
+    - User shall able contact reasturant easily.
 
 -   ### Design
     -   #### Colour Scheme
