@@ -84,7 +84,6 @@ body {
     font-family: "Rancho", cursive;
 }
 
-
 /* ------ Reviews ------- */
 
 .review-image {
@@ -96,7 +95,6 @@ body {
 .review-image-heading {
     display: inline;
     font-family: "Rancho", cursive;
-   
 }
 
 /* ------ footer ------- */
@@ -182,21 +180,20 @@ body {
     justify-content: center;
 }
 
-.menu-background{
+.menu-background {
     background-image: url("../images/background-menu.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-
 }
 
-.menu-list-background{
-    background-color: #eeeeee
+.menu-list-background {
+    background-color: #eeeeee;
 }
 
 .menu-heading {
     font-family: "Fredericka the Great", cursive;
-    color:#fff;
+    color: #fff;
     display: inline;
     font-weight: bold;
     font-size: 30px;
@@ -215,8 +212,7 @@ body {
 }
 
 .hori-line-style {
-    border-top: 3px double #BF0000;
-    
+    border-top: 3px double #bf0000;
 }
 /*--About Us--*/
 .top-container-about-us {
@@ -232,13 +228,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
-#logo-img-about-us{
-     width: 30px;
+#logo-img-about-us {
+    width: 30px;
     height: auto;
-
 }
 /*--Thank you--*/
 
@@ -257,7 +251,6 @@ body {
     justify-content: center;
 }
 
-
 /*--Custom media queries--*/
 
 @media screen and (max-width: 990px) {
@@ -267,20 +260,17 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-.top-container-about-us {
-
-    background-position-x: 50%;
+    .top-container-about-us {
+        background-position-x: 50%;
+    }
 }
-
-}
-
 
 @media screen and (max-width: 576px) {
     .card-xs-margin {
         margin-top: 20px;
     }
 
-    .d-flex{
-        display: block
+    .d-flex {
+        display: block;
     }
 }
