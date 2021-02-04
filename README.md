@@ -1,10 +1,12 @@
 # SPICY DHABA
+[View the live project here.](https://rajendradanve.github.io/spicy-dhabha/index.html)
 
 This website is created as a first milestone project using HTML and CSS. 
 Website target Indian reasturant with some special dishes. In this reasturant it is possible to book a table online before visiting so that people don't need to wait or it is possible to order take away. 
 Menu is available for view. Chef has some special menu items. 
 
 reasturant is also offering catering services to parties. To start discussion it is required to contact reasturant directly or send the form. 
+<h2><img src="./assets/docs/wireframe/multiscreen-spicy-dhaba.jpg"></h2>
 
 --------
 
