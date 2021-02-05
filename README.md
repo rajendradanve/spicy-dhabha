@@ -65,7 +65,7 @@ reasturant is also offering catering services to parties. To start discussion it
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/rajendradanve/spicy-dhabha/blob/master/Spicy-dhaba-wireframe.zip) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/rajendradanve/spicy-dhabha/tree/master/assets/docs/wireframe) during the design process.
  For responsive design well known [Bootstrap library](https://getbootstrap.com/)  is used.
 
 --------
