@@ -84,33 +84,57 @@ reasturant is also offering catering services to parties. To start discussion it
 --------
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C HTML Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-To be updated
+### Testing User Stories from User Experience (UX) Section
+
+-   As a visitor, I want to easily understand the what is reasturant about and what can they offer.
+    -   When user visit site they easily see clean navigation bar.
+    -   On the overlap section over hero image link to book table is provided. Also alternatively phone number for take away order is provided.
+    -   On the home page special dishes from the reasturant are provided for quick view to make customer to know the speciality of the reasturant.
+
+-   As a visitor, it is important to navigate easily and find the informaion required.
+    -   Clean and self explanatary navigation menu items are provided. Active navigation item is marked with light gray background. 
+    -   For the smaller screen sizes collapsable navigation bar is made. 
+
+-   User shall able to contact reasturnat easily.
+    -   Provided good looking form for contacting reasturant. Also phone number is provided for quick contact and take away.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, andriod phones.
+-   Testing was done to ensure that all links work correctly.
 
+### Known Bugs
+
+-   Between 980 to 1030 px width margin between opening time and map becomes zero. Some overlapping happens at some points.
+    
 --------
 ## Deployment
 
-To be updated
+The project was deployed to GitHub Pages using the following steps...
 
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/rajendradanve/spicy-dhabha)
+2. At the top of the Repository, locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+   The page will automatically refresh.
+5. Scroll back down through the page to locate the now published [site link](https://rajendradanve.github.io/spicy-dhabha/) in the "GitHub Pages" section.
 
 --------
 ## Credits
 
 1. Images - Images for these projects are downloaded from [pexels](pexels.com), [unsplash](unsplash.com), [pixabay](pixabay.com). Images are free to use.
 2. Logo - Created using [freelogodesign](freelogodesign.org)
-3. Fonts- Google fonts - Roboto
-4. Icons - Font Awsoms
+3. Fonts- Google fonts - Main font used is "Roboto". For Logo name, heading and sub-heading "Fredericka the Great" font used. For card title "Rancho" font is used.
+4. Icons - Font Awsoms icon library used by importing CSS in the head section.
+5. Full screen hero image css code taken from [this link](https://css-tricks.com/perfect-full-page-background-image/)
+6. [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap 5.0 Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+7. 
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   My Mentor for continuous helpful feedback regarding layout and colors etc.
 
--   Tutor support at Code Institute for their support.
+-   Tutor support at Code Institute for their support to solve some of the layout issues.
