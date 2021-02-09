@@ -26,6 +26,7 @@ body {
 #logo {
     font-family: "Fredericka the Great", cursive;
     color: rgb(207, 23, 23);
+    margin-bottom: 0!important;
 }
 
 #logo-img {

@@ -2,10 +2,10 @@
 [View the live project here.](https://rajendradanve.github.io/spicy-dhabha/index.html)
 
 This website is created as a first milestone project using HTML and CSS. 
-Website target Indian reasturant with some special dishes. In this reasturant it is possible to book a table online before visiting so that people don't need to wait or it is possible to order take away. 
+Website target Indian restaurant with some special dishes. In this restaurant it is possible to book a table online before visiting so that people don't need to wait or it is possible to order take away. 
 Menu is available for view. Chef has some special menu items. 
 
-reasturant is also offering catering services to parties. To start discussion it is required to contact reasturant directly or send the form. 
+restaurant is also offering catering services to parties. To start discussion it is required to contact restaurant directly or send the form. 
 <h2><img src="./assets/docs/wireframe/multiscreen-spicy-dhaba.png"></h2>
 
 --------
@@ -14,9 +14,9 @@ reasturant is also offering catering services to parties. To start discussion it
 
 -   ### User stories
         
-    - User shall able to get quick information about the reasturant.
+    - First time user shall able to get quick information about the resturant, menu and specialty of restaurant.
     - User shall able to navigate throughout the site easily and find the information based on navigation items.
-    - User shall able contact reasturant easily.
+    - User shall able contact resturant easily.
 
 -   ### Design
     -   #### Colour Scheme
@@ -24,7 +24,7 @@ reasturant is also offering catering services to parties. To start discussion it
     -   #### Typography
         -   Fonts for header used is "Fredericka the Great". For menu name decorative cursive font "Rancho" used. For other general fonts "Roboto" font is used.
     -   #### Imagery
-        -   Images mostly related to reasturant are used and Indian foods are used throughout the site.
+        -   Images mostly related to restaurant are used and Indian foods are used throughout the site.
 
 *   ### Wireframes
     -   Wireframe for this project is done using Balsamiq Wireframe software. Images can be found at [this link](https://github.com/rajendradanve/spicy-dhabha/blob/master/Spicy-dhaba-wireframe.zip)
@@ -32,7 +32,7 @@ reasturant is also offering catering services to parties. To start discussion it
 ## Features
 -   Existing Features
     -   Responsive Design
-    -   Able to send book table request and contact reasturant via filling data in the form.
+    -   Able to send book table request and contact restaurant via filling data in the form.
 
 -   Features for next updated
     -   Take Away Menu Selection and possibility to order through form checkin and generating checkout list.
@@ -88,17 +88,17 @@ The W3C HTML Markup Validator and W3C CSS Validator Services were used to valida
 
 ### Testing User Stories from User Experience (UX) Section
 
--   As a visitor, I want to easily understand the what is reasturant about and what can they offer.
+-   As a visitor, I want to easily understand the what is restaurant about and what can they offer.
     -   When user visit site they easily see clean navigation bar.
     -   On the overlap section over hero image link to book table is provided. Also alternatively phone number for take away order is provided.
-    -   On the home page special dishes from the reasturant are provided for quick view to make customer to know the speciality of the reasturant.
+    -   On the home page special dishes from the restaurant are provided for quick view to make customer to know the speciality of the restaurant.
 
 -   As a visitor, it is important to navigate easily and find the informaion required.
     -   Clean and self explanatary navigation menu items are provided. Active navigation item is marked with light gray background. 
     -   For the smaller screen sizes collapsable navigation bar is made. 
 
--   User shall able to contact reasturnat easily.
-    -   Provided good looking form for contacting reasturant. Also phone number is provided for quick contact and take away.
+-   User shall able to contact restaurant easily.
+    -   Provided good looking form for contacting restaurant. Also phone number is provided for quick contact and take away.
 
 ### Further Testing
 
@@ -138,3 +138,4 @@ The project was deployed to GitHub Pages using the following steps...
 -   My Mentor for continuous helpful feedback regarding layout and colors etc.
 
 -   Tutor support at Code Institute for their support to solve some of the layout issues.
+
