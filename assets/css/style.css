@@ -103,10 +103,9 @@ body {
 }
 
 .google-map{
-    width: 270px;
-    height: 270px;
-    border-style: none; 
-    border: 0px;
+    width: 100%;
+    height: 440px;
+    
 }
 
 /*--Book Table--*/
