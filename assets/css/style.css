@@ -283,4 +283,8 @@ body {
     .d-flex {
         display: block;
     }
+
+    .reserve-table-form{
+        border: none!important;
+    }
 }
