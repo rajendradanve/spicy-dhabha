@@ -135,6 +135,26 @@ body {
     min-width: 100%;
 }
 
+
+.book-table-background {
+    background-image: url("../images/background-menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.book-table-form-background {
+    background-color: #fff;
+}
+
+.book-table-heading {
+    font-family: "Fredericka the Great", cursive;
+    color: #fff;
+    display: inline;
+    font-weight: bold;
+    font-size: 30px;
+}
+
 /*--Contact Us--*/
 
 .top-container-contact-us {
@@ -198,7 +218,7 @@ body {
 }
 
 .menu-list-background {
-    background-color: #eeeeee;
+    background-color: #fff;
 }
 
 .menu-heading {
