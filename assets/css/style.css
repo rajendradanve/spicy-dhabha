@@ -304,7 +304,8 @@ body {
         display: block;
     }
 
-    .reserve-table-form{
+    .book-table-border{
         border: none!important;
+        border-radius: 0!important;
     }
 }
