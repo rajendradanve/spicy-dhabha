@@ -312,15 +312,9 @@ body {
 
 @media screen and (max-width: 768px){
 
-    .top-container {
-    height: 50vh;
-    }
-
-    .top-container-about-us {
-    height: 50vh;
-    }
-
-    .top-container-menu {
+    .top-container, .top-container-about-us, .top-container-menu,
+     .top-container-book-table, .top-container-catering, 
+     .top-container-contact-us, .top-container-thankyou {
     height: 50vh;
     }
 }
