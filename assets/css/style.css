@@ -309,3 +309,18 @@ body {
         border-radius: 0!important;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    .top-container {
+    height: 50vh;
+    }
+
+    .top-container-about-us {
+    height: 50vh;
+    }
+
+    .top-container-menu {
+    height: 50vh;
+    }
+}
